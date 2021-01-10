@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#page-content {
+    margin-left: 20px !important;
+}
+
+*:first-child+html #sitemenu-content ul li {
+	display: inline;
+}
+
+* html #sitemenu-content ul li {
+	display: inline;
+}
+
+body.no-sidebar .photogrid-index {
+	width: 660px!important;
+	margin-left:30px;
+}
